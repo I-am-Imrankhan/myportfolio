@@ -1,0 +1,13 @@
+@import "./styles/global.scss";
+.content-wrapper {
+  flex: 2;
+  overflow-y: auto;
+  background: $content_wrapper_background;
+  padding: 10% 20px;
+  .linear-gradient-background {
+    background: linear-gradient(to right, rgb(236, 225, 204),  rgb(206, 121, 87));
+    text-align: left;
+    padding-left: 20px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,54 @@
+@import "variables";
+
+.sidebar {
+  flex: 0.5;
+  color: $color_inactive_color;
+  background-color: $sidebar_background;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  overflow-y: auto;
+  a {
+    text-decoration: none;
+    font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.5rem;
+    color: $color_inactive_color;
+  }
+  ul {
+    list-style: none;
+    padding-inline-start: 0;
+    li {
+      margin-bottom: 12px;
+      text-align: center;
+    }
+    .active {
+      ::before {
+        content: "👉 ";
+      }
+      a {
+        color: $color_active_color;
+        text-decoration: none;
+        font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 1.5rem;
+        background-color: $color_link_shadow;
+        box-shadow: 1px 2px 14px 15px $color_link_shadow;
+      }
+    }
+  }
+}
+.inactive {
+  color: $color_inactive_color;
+}
+.profilepic {
+  width: 15vw;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 1px 2px 14px 15px $color_profilepic_shadow;
+}

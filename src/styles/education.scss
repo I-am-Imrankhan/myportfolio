@@ -1,0 +1,52 @@
+@import "../styles/global.scss";
+@import "../variables.scss";
+
+.educations {
+  padding: 40px 0;
+  
+  .education {
+    margin: 120px 0;
+    display: flex;
+    justify-content: space-between;
+    .title {
+        text-transform: uppercase;
+    }
+    .subheading {
+        margin-top: 10px;
+        color: $h_color_primary;
+        text-transform: uppercase;
+    }
+    p {
+        line-height: 1.6;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 20px;
+      margin: 20px;
+      li {
+        line-height: 30px;
+        margin: 10px 0;
+        line-height: 1.6;
+        display: flex;
+        strong {
+          color: #555;
+          min-width: 140px;
+        }
+        i::before {
+          font-size: 55px;
+        }
+      }
+    }
+    .resume-content .subjects {
+        margin-top: 20px;
+        p{
+            margin: 0;
+                }
+    }
+  }
+}

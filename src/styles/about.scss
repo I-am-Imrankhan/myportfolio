@@ -1,47 +1,52 @@
 @import "../variables.scss";
 
-.body-text {
-  color: $color_text;
-  font-weight: 600;
-  font-size: 1.15rem;
-  line-height: 2rem;
-  margin: 100px 0px;
-  .nav-favorite-phrase {
+.about {
+  .text-primary {
     color: $color_active_border;
   }
-}
-.subheading {
-  color: red;
-  a {
-    color: rgb(222, 98, 98);
-    text-decoration: none;
+  .body-text {
+    color: $color_text;
     font-weight: 600;
     font-size: 1.15rem;
+    line-height: 2rem;
+    margin: 100px 0px;
+    .nav-favorite-phrase {
+      color: $color_active_border;
+    }
   }
-}
+  .subheading {
+    color: red;
+    a {
+      color: rgb(222, 98, 98);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.15rem;
+    }
+  }
 
-.social {
-  color: $color_text;
-  font-weight: 600;
-  font-size: 1.15rem;
-  margin: 100px 0px;
-  ul {
-    li {
-      line-height: 30px;
-      &:hover {
-        color: $color_active_border;
+  .social {
+    color: $color_text;
+    font-weight: 600;
+    font-size: 1.15rem;
+    margin: 100px 0px;
+    ul {
+      li {
+        line-height: 30px;
+        &:hover {
+          color: $color_active_border;
+        }
+      }
+      li::marker {
+        font-size: 25px;
       }
     }
-    li::marker {
-      font-size: 25px;
-    }
   }
-}
-.social-icons {
-  display: flex;
-  gap: 20px;
-  margin: 40px 20px;
-  i::before {
-    font-size: 50px;
+  .social-icons {
+    display: flex;
+    gap: 20px;
+    margin: 40px 20px;
+    i::before {
+      font-size: 50px;
+    }
   }
 }

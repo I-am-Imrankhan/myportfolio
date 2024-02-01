@@ -3,23 +3,23 @@
 
 .educations {
   padding: 40px 0;
-  
+
   .education {
     margin: 120px 0;
     display: flex;
     justify-content: space-between;
     .title {
-        text-transform: uppercase;
+      text-transform: uppercase;
     }
     .subheading {
-        margin-top: 10px;
-        color: $h_color_primary;
-        text-transform: uppercase;
+      margin-top: 10px;
+      color: $h_color_primary;
+      text-transform: uppercase;
     }
     p {
-        line-height: 1.6;
-        margin-top: 10px;
-        font-size: 30px;
+      line-height: 1.6;
+      margin-top: 10px;
+      font-size: 30px;
     }
     ul {
       list-style: none;
@@ -42,11 +42,19 @@
         }
       }
     }
-    .resume-content .subjects {
+    .resume-content {
+      .subjects {
         margin-top: 20px;
-        p{
-            margin: 0;
-                }
+        p {
+          margin: 0;
+        }
+      }
+    }
+    gap: 150px;
+    .resume-date {
+      span {
+        white-space: nowrap;
+      }
     }
   }
 }

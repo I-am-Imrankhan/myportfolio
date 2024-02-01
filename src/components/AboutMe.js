@@ -2,10 +2,10 @@ import "../styles/about.scss";
 import "@fortawesome/fontawesome-free/css/all.css";
 
 export const About = () => (
-  <div class="">
+  <div class="about">
     <h1 class="uppercase">
       Muhammad Imran
-      <span class="text-primary">Khan</span>
+      <span class="text-primary"> Khan</span>
     </h1>
     <div class="subheading uppercase">
       Upplands Väsby Stockholm,
@@ -15,16 +15,18 @@ export const About = () => (
       <p>
         <span class="nav-favorite-phrase">
           {" "}
-          I love working as a developer.{" "}
+          I am passionate about my role as a developer{" "}
         </span>
-        As a developer i have several years of experience in mobile app and web
-        development. I have recently developed with user auth based a website
-        which is a kind of blocket.se. I used React with Firebase in this
-        project. I love to learn new things in programming world. I am searching
-        for a job preferred as a Flutter developer with a company where i can
-        see place for my self to grow and learn new things. I am fast learner,
-        have good programming skills, design, UX, and team work. I am always
-        upto date and trying to grow my skills with time.
+        , with several years of experience in both mobile app and web
+        development. Recently, I developed a user authentication-based website
+        similar to blocket.se, utilizing React and Firebase. I have an
+        insatiable curiosity for learning new concepts in the programming world.
+        Currently, I am seeking a position as a Flutter developer within a
+        company that offers opportunities for growth and continuous learning. I
+        pride myself on being a quick learner, possessing strong programming
+        skills, a keen eye for design and UX, and the ability to work
+        effectively in a team. I am committed to staying current with industry
+        trends and continually expanding my skill set.
       </p>
     </div>
     <div class="social">

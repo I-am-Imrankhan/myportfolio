@@ -82,7 +82,6 @@
         gap: 6px;
         margin: 20px 0;
         li {
-
           margin: 0;
           line-height: 1.6;
           display: flex;
@@ -107,7 +106,8 @@
       gap: 150px;
       .resume-date {
         span {
-          white-space: nowrap; color: $color_link_shadow;
+          white-space: nowrap;
+          color: $color_link_shadow;
         }
       }
     }

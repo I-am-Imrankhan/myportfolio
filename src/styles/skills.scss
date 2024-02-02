@@ -1,16 +1,19 @@
 @import "../styles/global.scss";
+@import "../styles/education.scss";
 
 .skills {
-    .title {
-    }
-    ul li {
-        list-style: none;
-        margin: 5px 0;
-        line-height: 1.6;
-        display: flex;
-        
-        strong {
+  .title {
+  }
+  ul li {
+    list-style: none;
+    margin: 5px 0;
+    line-height: 1.6;
+    display: flex;
 
-        }
+    strong {
     }
+  }
+
+  @include respond-to("mobile") {
+  }
 }

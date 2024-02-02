@@ -23,13 +23,6 @@ export const Experience = () => {
           <div>
             <strong>Period:</strong> {experience.period}
           </div>
-
-          {experience.projectDetails.name !== "" && (
-            <div>
-              <strong>Name: </strong>
-              <h4>{experience.projectDetails.name}</h4>
-            </div>
-          )}
           {experience.projectDetails.githubUrl && (
             <div>
               <strong>Github: </strong>{" "}
@@ -45,9 +38,7 @@ export const Experience = () => {
           {experience.projectDetails.url && (
             <div>
               <strong> Visit: </strong>
-              <a href={experience.projectDetails.url}>
-                {experience.projectDetails.url}
-              </a>{" "}
+              <a href={experience.projectDetails.url}>Visit</a>{" "}
             </div>
           )}
         </div>

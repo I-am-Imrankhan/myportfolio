@@ -7,7 +7,7 @@ export const Education = () => {
 
       <div class="education">
         <div class="resume-content">
-          <h4 class="title ">Frontend - Development</h4>
+          <h3 class="title ">Frontend - Development</h3>
           <div class="subheading">Yrkeshögskolan examen</div>
           <div className="school">EC Utbildning</div>
           <p className="p-text">
@@ -96,7 +96,9 @@ export const Education = () => {
             <p className="p-text">
               ● Topology I, II. Complex Analysis I, II Economics, Statistics
             </p>
-            <p className="p-text">● Introduction programming, introduction to C++</p>
+            <p className="p-text">
+              ● Introduction programming, introduction to C++
+            </p>
             <p className="p-text">
               ● Functional analysis I, II. Partial differential equation. Number
               theory.

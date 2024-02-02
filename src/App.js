@@ -1,10 +1,6 @@
 import React from "react";
 import "./App.scss";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./Sidebar.scss";
 import "./Content.scss";
 import { About } from "./components/AboutMe.js";

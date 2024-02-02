@@ -15,7 +15,6 @@
     display: flex;
 
     strong {
-      color: #555;
       min-width: 140px;
     }
   }
@@ -27,5 +26,16 @@
       background-color: $color_link_shadow;
     }
   }
-  @include respond-to("mobile") {}
+  @include respond-to("mobile") {
+    div {
+      margin: 10px 0;
+      line-height: 1.2;
+      display: inline-block;
+
+      strong {
+        color: #555;
+        min-width: 100px;
+      }
+    }
+  }
 }

@@ -51,5 +51,6 @@
     }
   }
 
-  @include respond-to("mobile") {}
+  @include respond-to("mobile") {
+  }
 }

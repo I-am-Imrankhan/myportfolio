@@ -1,24 +1,24 @@
 export const getExperiences = () => {
   return [
     {
+      name: "Datatrion",
+      type: "Frontend developer/backend",
+      purpose: "System developer",
+      about: "Working with different projects and technologies",
+      description:
+        "During the work we have daily standups and i am working with vue 2, vue3, making some minor changes in backend/django project. It is a source of learning for me to know the work place better. I am working with different projects and technologies on daily basis.",
+      imageurl: "./img/web.png",
+      projectDetails: {
         name: "Datatrion",
-        type: "Frontend developer/backend",
-        purpose: "System developer",
-        about: "Working with different projects and technologies",
-        description:
-          "During the work we have daily standups and i am working with vue 2, vue3, making some minor changes in backend/django project. It is a source of learning for me to know the work place better. I am working with different projects and technologies on daily basis.",
-        imageurl: "./img/web.png",
-        projectDetails: {
-          name: "Datatrion",
-          url: "",
-          icon: "",
-          githubUrl: "",
-          keyPoints: [
-            "Vue 2, Vue 3, Django, Python, JavaScript, TypeScript, HTML, CSS, SCSS, Git, Agile, Scrum, Slack, Trello, Teams, Fork, Github Desktop, VSCode, Figma"
-          ],
-        },
-        period: "Jan 2022 - present",
+        url: "",
+        icon: "",
+        githubUrl: "",
+        keyPoints: [
+          "Vue 2, Vue 3, Django, Python, JavaScript, TypeScript, HTML, CSS, SCSS, Git, Agile, Scrum, Slack, Trello, Teams, Fork, Github Desktop, VSCode, Figma",
+        ],
       },
+      period: "Jan 2022 - present",
+    },
     {
       name: "eMarket",
       type: "Frontend development - EMARKET",
@@ -94,7 +94,7 @@ export const getExperiences = () => {
 
     {
       name: "MINDFULHU ",
-      type: "app",
+      type: "Mobile app",
       purpose: "IOS APP DEVELOPMENT/INTERN, STOCKHOLM",
       about:
         "To create an ios application which can communicate with the phisical mindfulness device",
@@ -107,7 +107,7 @@ export const getExperiences = () => {
         icon: "",
         githubUrl: "",
         keyPoints: [
-          "Brainstorming, BLE(Bluetooth) - IOS mobile app , xCode/Swift, Weekly",
+          "Brainstorming, BLE(Bluetooth) - IOS Mobile app , xCode/Swift, Weekly",
           "oll-scrum/Stand-ups, Weekly roll-scrum/Stand-up, Git, Agile, Scrum, WeChat",
         ],
       },
@@ -115,12 +115,12 @@ export const getExperiences = () => {
     },
     {
       name: "ITANCAN",
-      type: "app",
+      type: "Mobile app",
       purpose: "ANDROID APP DEVELOPMENT/INTERN, STOCKHOLM ",
       about:
         "Worked with different android application, bug fixing and adding new functionality",
       description:
-        "Here i used to work on daily basis with both Android and ios native application. We had daily scrum standups everyday. This was my first internship in mobile app development.",
+        "Here i used to work on daily basis with both Android and ios native application. We had daily scrum standups everyday. This was my first internship in Mobile app development.",
       imageurl: "./img/mobile.png",
       projectDetails: {
         name: "",
@@ -140,12 +140,12 @@ export const getExperiences = () => {
     },
     {
       name: "FLUTTER",
-      type: "app",
-      purpose: "Hobby projects",
+      type: "Mobile app",
+      purpose: "Hobby projects in my off time",
       about:
         "I love Flutter and the purpose to use it in my hobby projects was to learn it better",
       description:
-        "Well i love Flutter and i believe it will take over most part of mobile app development. I wanted to go into depth to learn it more. And thought why not to build something which can be fun and source of learning. ",
+        "Well i love Flutter and i believe it will take over most part of Mobile app development. I wanted to go into depth to learn it more. And thought why not to build something which can be fun and source of learning. ",
       imageurl: "./img/mobile.png",
       projectDetails: {
         name: "Park&Pick and SalatTimes",
@@ -164,7 +164,7 @@ export const getExperiences = () => {
     },
     {
       name: "EBUILDER",
-      type: "app",
+      type: "Mobile app",
       purpose: "MOBILE-APP TESTER, KISTA STOCKHOLM",
       about:
         "Testing mobile application functionality on different devices, finding bugs, reporting them to the team.",

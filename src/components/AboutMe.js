@@ -9,7 +9,7 @@ export const About = () => (
     </h1>
     <div class="subheading uppercase">
       Upplands Väsby Stockholm,
-      <a href="mailto:epostimrankhan@gmail.com"> epostimrankhan@gmail.com</a>
+      <a href="mailto:epostimrankhan@gmail.com"> imrankhanswati@gmail.com</a>
     </div>
     <div class="body-text">
       <p>
@@ -21,7 +21,7 @@ export const About = () => (
         development. Recently, I developed a user authentication-based website
         similar to blocket.se, utilizing React and Firebase. I have an
         insatiable curiosity for learning new concepts in the programming world.
-        Currently, I am seeking a position as a Flutter developer within a
+        Currently, I am seeking a position within a
         company that offers opportunities for growth and continuous learning. I
         pride myself on being a quick learner, possessing strong programming
         skills, a keen eye for design and UX, and the ability to work

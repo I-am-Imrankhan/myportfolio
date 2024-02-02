@@ -1,4 +1,5 @@
 @import "../variables.scss";
+@import "../mixinsscss/media.scss";
 
 .about {
   .text-primary {
@@ -49,4 +50,6 @@
       font-size: 50px;
     }
   }
+
+  @include respond-to("mobile") {}
 }

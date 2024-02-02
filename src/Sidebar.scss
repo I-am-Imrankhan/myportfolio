@@ -1,6 +1,8 @@
 @import "variables";
+@import "./mixinsscss/media.scss";
 
 .sidebar {
+
   flex: 1;
   color: $color_inactive_color;
   background-color: $sidebar_background;
@@ -24,12 +26,17 @@
     li {
       margin-bottom: 12px;
       text-align: center;
+      .inactive {
+        color: $color_inactive_color;
+      }
     }
     .active {
       ::before {
+        transition: color 1s ease;
         content: "👉 ";
       }
       a {
+        transition: color 1s ease;
         color: $color_active_color;
         text-decoration: none;
         font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -41,14 +48,50 @@
       }
     }
   }
-}
-.inactive {
-  color: $color_inactive_color;
-}
-.profilepic {
-  width: 15vw;
-  border-radius: 50%;
-  margin: 0 auto;
-  display: block;
-  box-shadow: 1px 2px 14px 15px $color_profilepic_shadow;
+  .profilepic {
+    width: 15vw;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 1px 2px 14px 15px $color_profilepic_shadow;
+  }
+
+  @include respond-to("tablet") {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  @include respond-to("mobile") {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+
+    .profilepic {
+      display: none;
+    }
+    a {
+      font-size: 0.9rem;
+    }
+    ul {
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+      li {
+        margin: 0px;
+      }
+      .active {
+        ::before {
+          transition: color 1s ease;
+          content: "";
+        }
+        a {
+          font-size: 0.9rem;
+          border-bottom: 3px solid #f00;
+        }
+      }
+    }
+  }
 }

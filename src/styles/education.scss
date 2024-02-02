@@ -1,5 +1,5 @@
-@import "../styles/global.scss";
 @import "../variables.scss";
+@import "../mixinsscss/media.scss";
 
 .educations {
   padding: 40px 0;
@@ -54,6 +54,61 @@
     .resume-date {
       span {
         white-space: nowrap;
+      }
+    }
+  }
+
+  @include respond-to("mobile") {
+    .education {
+      margin: 30px 0;
+      display: inline-block;
+      .p-text {
+        font-size: 12px;
+      }
+      .title {
+        text-transform: uppercase;
+      }
+      .subheading {
+        margin-top: 10px;
+        color: $h_color_primary;
+        text-transform: uppercase;
+      }
+      p {
+        line-height: 1.2;
+        margin-top: 14px;
+        font-size: 30px;
+      }
+      ul {
+        gap: 6px;
+        margin: 20px 0;
+        li {
+
+          margin: 0;
+          line-height: 1.6;
+          display: flex;
+          strong {
+            color: #555;
+            min-width: 140px;
+          }
+          i::before {
+            font-size: 20px;
+          }
+        }
+      }
+      .resume-content {
+        .subjects {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          p {
+            margin: 5px;
+          }
+        }
+      }
+      gap: 150px;
+      .resume-date {
+        span {
+          white-space: nowrap; color: $color_link_shadow;
+        }
       }
     }
   }

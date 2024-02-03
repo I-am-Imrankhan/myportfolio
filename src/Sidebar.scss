@@ -5,12 +5,18 @@
   flex: 1;
   color: $color_inactive_color;
   background-color: $sidebar_background;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
   overflow-y: auto;
+  .profilepic {
+    width: 15vw;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 1px 2px 14px 15px $color_profilepic_shadow;
+  }
   a {
     text-decoration: none;
     font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -47,19 +53,21 @@
       }
     }
   }
-  .profilepic {
-    width: 15vw;
-    border-radius: 50%;
-    margin: 0 auto;
-    display: block;
-    box-shadow: 1px 2px 14px 15px $color_profilepic_shadow;
-  }
 
   @include respond-to("tablet") {
     position: fixed;
-    left: 0;
+    top: 0;
     width: 100%;
-    height: auto;
+    height: 10%;
+    .profilepic {
+      display: none;
+    }
+    ul {
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      justify-content: space-around;
+    }
   }
   @include respond-to("mobile") {
     position: fixed;

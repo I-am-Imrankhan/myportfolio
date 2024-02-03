@@ -3,8 +3,8 @@ import "../styles/welcome.scss";
 
 export const Welcome = () => {
   return (
-    <div class="welcome">
-      <div class="welcome-container">
+    <div className="welcome">
+      <div className="welcome-container">
         <h1>Muhammad Imran Khan</h1>
         <p>
           I'm Imran Khan, a software developer. Feel free to explore my projects

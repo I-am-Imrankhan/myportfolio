@@ -13,7 +13,7 @@ export const Sidebar = () => {
   const match4 = useMatch("/skills");
   const match5 = useMatch("/welcome");
   return (
-    <div class="sidebar">
+    <div className="sidebar">
       <img
         className="profilepic"
         src={profilePic}

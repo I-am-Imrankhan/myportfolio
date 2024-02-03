@@ -2,18 +2,18 @@ import "../styles/about.scss";
 import "@fortawesome/fontawesome-free/css/all.css";
 
 export const About = () => (
-  <div class="about">
-    <h1 class="uppercase">
+  <div className="about">
+    <h1 className="uppercase">
       Muhammad Imran
-      <span class="text-primary"> Khan</span>
+      <span className="text-primary"> Khan</span>
     </h1>
-    <div class="subheading uppercase">
+    <div className="subheading uppercase">
       Upplands Väsby Stockholm,
       <a href="mailto:epostimrankhan@gmail.com"> imrankhanswati@gmail.com</a>
     </div>
-    <div class="body-text">
+    <div className="body-text">
       <p>
-        <span class="nav-favorite-phrase">
+        <span className="nav-favorite-phrase">
           {" "}
           I am passionate about my role as a developer{" "}
         </span>
@@ -29,7 +29,7 @@ export const About = () => (
         trends and continually expanding my skill set.
       </p>
     </div>
-    <div class="social">
+    <div className="social">
       <ul>
         <li>Social, careful, confident, flexible.</li>
         <li>Keen to learn, Creating and curious.</li>
@@ -37,12 +37,12 @@ export const About = () => (
       </ul>
     </div>
 
-    <div class="social-icons">
+    <div className="social-icons">
       <a href="https://www.linkedin.com/in/muhammad-imran-khan-42b1a328/">
-        <i class="fab fa-linkedin-in"></i>
+        <i className="fab fa-linkedin-in"></i>
       </a>
       <a href="https://github.com/I-am-Imrankhan">
-        <i class="fab fa-github"></i>
+        <i className="fab fa-github"></i>
       </a>
     </div>
   </div>

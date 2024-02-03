@@ -4,7 +4,8 @@ import { getExperiences } from "../utils.js";
 export const Experience = () => {
   const experiences = getExperiences();
   return (
-    <div>
+    <div className="experience">
+      <h1>Experience</h1>
       {experiences.map((experience, index) => (
         <div key={index} className="experience-card">
           <h2 className="linear-gradient-background">{experience.name}</h2>

@@ -1,40 +1,44 @@
 @import "../styles/global.scss";
-@import "../styles/education.scss";
+@import "../mixinsscss/media.scss";
 
-.experience-card {
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 5px $color_link_shadow;
+.experience {
+  .experience-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px $color_link_shadow;
 
-  div {
-    margin: 10px 0;
-    line-height: 1.6;
-    display: flex;
+    div {
+      margin: 10px 0;
+      line-height: 1.6;
+      display: flex;
 
-    strong {
-      min-width: 140px;
+      strong {
+        min-width: 140px;
+      }
     }
-  }
-  a {
-    color: $h_color_primary;
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-      background-color: $color_link_shadow;
+    a {
+      color: $h_color_primary;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        background-color: $color_link_shadow;
+      }
     }
   }
   @include respond-to("mobile") {
-    div {
-      margin: 10px 0;
-      line-height: 1.2;
-      display: inline-block;
+    .experience {
+      div {
+        margin: 10px 0;
+        line-height: 1.2;
+        display: inline-block;
 
-      strong {
-        color: #555;
-        min-width: 100px;
+        strong {
+          color: #555;
+          min-width: 100px;
+        }
       }
     }
   }

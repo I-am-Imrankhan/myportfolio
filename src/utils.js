@@ -189,28 +189,53 @@ export const getExperiences = () => {
 };
 
 export const educations = () => [
-    {
-      "title": "Frontend - Development",
-      "subheading": "Yrkeshögskolan examen",
-      "school": "EC Utbildning",
-      "description": "Javascript, React, Angular, HTML, CSS, Bootstrap UI , UX och Graphical design Node.js, npm,Express, JSON, json-server, MongoDB, .net Project management Agil methedology Scrum Process Kanban",
-      "icons": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square", "fab fa-vuejs", "fab fa-react", "fab fa-node-js", "fab fa-npm"],
-      "date": "September 2018 - June 2020"
-    },
-    {
-      "title": "Mobil app development",
-      "subheading": "Yrkeshögskolan",
-      "school": "NEWTON YH – APPLICATION DEVELOPMENT 400 YHP, STOCKHOLM",
-      "description": "Android, Java, xCode, Swift, , JavaScript, HTML, CSS, Bootstrap UI , UX och graphic design Firebse, Firestore, Realtime database(Firebase), SQL, SQLLite, Ionic app development. Project management Agil methedology Scrum Process Kanban",
-      "icons": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square", "fab fa-android", "fab fa-apple", "fab fa-java", "fab fa-npm"],
-      "date": "August 2016 – June 2018"
-    },
-    {
-      "title": "Mathematics",
-      "subheading": "BS(HONS)",
-      "school": "Bachelor of Mathematics 4 years",
-      "description": ["Mathematics A, B.", "Abstract Algebra I, II, Real Analysis.", "Topology I, II", "Topology I, II. Complex Analysis I, II Economics, Statistics", "Introduction programming, introduction to C++", "Functional analysis I, II. Partial differential equation. Number theory.", "Physics I, II"],
-      "date": "2003 – 2007"
-    }
-  ]
-
+  {
+    title: "Frontend - Development",
+    subheading: "Yrkeshögskolan examen",
+    school: "EC Utbildning",
+    description:
+      "Javascript, React, Angular, HTML, CSS, Bootstrap UI , UX och Graphical design Node.js, npm,Express, JSON, json-server, MongoDB, .net Project management Agil methedology Scrum Process Kanban",
+    icons: [
+      "fab fa-html5",
+      "fab fa-css3-alt",
+      "fab fa-js-square",
+      "fab fa-vuejs",
+      "fab fa-react",
+      "fab fa-node-js",
+      "fab fa-npm",
+    ],
+    date: "September 2018 - June 2020",
+  },
+  {
+    title: "Mobil app development",
+    subheading: "Yrkeshögskolan",
+    school: "NEWTON YH – APPLICATION DEVELOPMENT 400 YHP, STOCKHOLM",
+    description:
+      "Android, Java, xCode, Swift, , JavaScript, HTML, CSS, Bootstrap UI , UX och graphic design Firebse, Firestore, Realtime database(Firebase), SQL, SQLLite, Ionic app development. Project management Agil methedology Scrum Process Kanban",
+    icons: [
+      "fab fa-html5",
+      "fab fa-css3-alt",
+      "fab fa-js-square",
+      "fab fa-android",
+      "fab fa-apple",
+      "fab fa-java",
+      "fab fa-npm",
+    ],
+    date: "August 2016 – June 2018",
+  },
+  {
+    title: "Mathematics",
+    subheading: "BS(HONS)",
+    school: "Bachelor of Mathematics 4 years",
+    description: [
+      "Mathematics A, B.",
+      "Abstract Algebra I, II, Real Analysis.",
+      "Topology I, II",
+      "Topology I, II. Complex Analysis I, II Economics, Statistics",
+      "Introduction programming, introduction to C++",
+      "Functional analysis I, II. Partial differential equation. Number theory.",
+      "Physics I, II",
+    ],
+    date: "2003 – 2007",
+  },
+];

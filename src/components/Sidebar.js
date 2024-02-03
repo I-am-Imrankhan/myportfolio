@@ -1,8 +1,5 @@
 import {
-  BrowserRouter as Router,
-  Route,
   Link,
-  Routes,
   useMatch,
 } from "react-router-dom";
 import profilePic from "../profilepic.png";
@@ -11,7 +8,6 @@ export const Sidebar = () => {
   const match2 = useMatch("/education");
   const match3 = useMatch("/experience");
   const match4 = useMatch("/skills");
-  const match5 = useMatch("/welcome");
   return (
     <div className="sidebar">
       <img
